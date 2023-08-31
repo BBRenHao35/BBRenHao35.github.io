@@ -1,8 +1,10 @@
 node_modules
+.temp
+.dist
 dist
-*/dist
+.cache
 cache
+.sample
 sample
 index_sample.md
 deploy.sh
-
