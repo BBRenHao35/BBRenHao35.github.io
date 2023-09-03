@@ -29,6 +29,7 @@ export default {
         items: [
           { text: "Markdown 語法", link: "/post/markdown.md", },
           { text: "Git 指令", link: "/post/git.md", },
+          { text: "VitePress 安裝", link: "/post/vitepress.md", },
         ],
       },
       // {
