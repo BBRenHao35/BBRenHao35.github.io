@@ -1,5 +1,9 @@
 # Git 指令
 
+::: tip 建立時間：2023/08/31
+Git 常用指令紀錄
+:::
+
 ## :pushpin: clone 遠端在到本機推送 main
 
 - git clone 遠端GitHub ( 新專案會建立一個 READE.md )

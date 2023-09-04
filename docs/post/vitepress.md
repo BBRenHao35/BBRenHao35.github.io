@@ -1,5 +1,9 @@
 # VitePress 安裝
 
+::: tip 建立時間：2023/09/03
+VitePress + GitHub Page 安裝紀錄
+:::
+
 ## :pushpin: 使用技術
 - VitePress
 - MarkDown
