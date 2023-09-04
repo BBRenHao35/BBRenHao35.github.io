@@ -50,5 +50,3 @@ git commit -m "first commit"
 ``` shell
 git push -u origin master
 ```
-
-
