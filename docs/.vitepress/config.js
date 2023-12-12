@@ -32,15 +32,15 @@ export default {
           { text: "VitePress 安裝", link: "/post/vitepress.md", },
         ],
       },
-      // {
-      //   text: "sample",
-      //   items: [
-      //     { text: "sample1", link: "/sample/sample1.md", },
-      //     { text: "sample2", link: "/sample/sample2.md" },
-      //   ],
-      //   collapsible: true, // 開啟側邊折疊功能
-      //   collapsed: false // 預設展開側邊攔
-      // },
+      {
+        text: "Docker",
+        items: [
+          { text: "Docker", link: "/docker/docker.md", },
+          { text: "Postgres + pgAdmin", link: "/docker/postgres.md", },
+        ],
+        collapsible: true, // 開啟側邊折疊功能
+        collapsed: false // 預設展開側邊攔
+      },
     ],
     // =========================================================
   }
