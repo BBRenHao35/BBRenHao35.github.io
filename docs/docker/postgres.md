@@ -48,7 +48,7 @@ docker-compose up -d  # 啟動服務
 docker ps  # 查看 Container
 ```
 
-- http://localhost:5050  (Login example@gmail.com / 000000)
+- `http://localhost:5050`  (Login: `example@gmail.com` / `000000`)
 ![pgadmin](/public/postgres/pgadmin.png)
 
 - Add New Server
@@ -58,7 +58,7 @@ docker ps  # 查看 Container
     - Port: 5432
     - Username: postgres
     - Password: 000000
-![pgadmin](/public/postgres/pgadmin-general.png)
-![pgadmin](/public/postgres/pgadmin-connection.png)
-![pgadmin](/public/postgres/pgadmin-ui.png)
+![pgadmin-general](/public/postgres/pgadmin-general.png)
+![pgadmin-connection](/public/postgres/pgadmin-connection.png)
+![pgadmin-ui](/public/postgres/pgadmin-ui.png)
 
