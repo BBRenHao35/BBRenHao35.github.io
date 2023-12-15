@@ -58,8 +58,8 @@ docker ps  # 查看 Container
 ```
 
 - `http://localhost:28081`  (Login: `admin` / `changeme`)
-![mongoweb-login](/public/mongo/mongoweb-login.png)
-![pgadmin-ui](/public/mongo/mongo-express.png)
+![docker-mongoweb-login](/public/docker/docker-mongo/docker-mongoweb-login.png)
+![docker-pgadmin-ui](/public/docker/docker-mongo/docker-mongo-express.png)
 
 ## :pushpin: 使用本機 MongoDB Compass 登入 Mongo DB
 
@@ -68,6 +68,6 @@ docker ps  # 查看 Container
     - Username: mongoadmin
     - Password: mongoadmin
 
-![mongo-compass](/public/mongo/mongo-local.png)
-![mongo-compass](/public/mongo/mongo-compass.jpg)
-![mongo-compass](/public/mongo/mongo-express-ui.png)
+![docker-mongo-compass](/public/docker/docker-mongo/docker-mongo-local.png)
+![docker-mongo-compass](/public/docker/docker-mongo/docker-mongo-compass.jpg)
+![docker-mongo-compass](/public/docker/docker-mongo/docker-mongo-express-ui.png)

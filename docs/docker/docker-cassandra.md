@@ -53,5 +53,5 @@ docker ps  # 查看 Container
 ```
 
 - `http://localhost:8083`
-![cassandra](/public/cassandra/cassandra.jpg)
-![cassandra-web](/public/cassandra/cassandra-web.jpg)
+![docker-cassandra](/public/docker/docker-cassandra/docker-cassandra.jpg)
+![docker-cassandra-web](/public/docker/docker-cassandra/docker-cassandra-web.jpg)

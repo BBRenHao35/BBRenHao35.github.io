@@ -53,7 +53,7 @@ docker ps  # 查看 Container
 ```
 
 - `http://localhost:5050`  (Login: `example@gmail.com` / `000000`)
-![pgadmin](/public/postgres/pgadmin.png)
+![docker-pgadmin](/public/docker/docker-postgres/docker-pgadmin.png)
 
 - Add New Server
 - General => Name: postgres
@@ -62,7 +62,6 @@ docker ps  # 查看 Container
     - Port: 5432
     - Username: postgres
     - Password: 000000
-![pgadmin-general](/public/postgres/pgadmin-general.png)
-![pgadmin-connection](/public/postgres/pgadmin-connection.png)
-![pgadmin-ui](/public/postgres/pgadmin-ui.png)
-
+![docker-pgadmin-general](/public/docker/docker-postgres/docker-pgadmin-general.png)
+![docker-pgadmin-connection](/public/docker/docker-postgres/docker-pgadmin-connection.png)
+![docker-pgadmin-ui](/public/docker/docker-postgres/docker-pgadmin-ui.png)
