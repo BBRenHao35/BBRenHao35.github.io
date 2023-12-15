@@ -6,38 +6,40 @@
 
 ## :pushpin: Docker Compose
 
-- 建立 docker-compose.yaml 檔
-
+- 建立 postgres.yaml 檔
 ``` yaml
 version: '3'
 services:
   postgres:
-    image: postgres  # Pull postgres Image
+    image: postgres # Pull postgres Image
     container_name: postgres
     environment:
-      - POSTGRES_DB=postgres  # 預設Db
-      - POSTGRES_USER=postgres  # 登入帳號
-      - POSTGRES_PASSWORD=000000  # 登入密碼
-    volumes:
-      - ./data:/var/lib/postgresql/data   # 資料存放路徑
+      - POSTGRES_DB=postgres # 預設Db
+      - POSTGRES_USER=postgres # 登入帳號
+      - POSTGRES_PASSWORD=000000 # 登入密碼
     ports:
-      - "5432:5432"  # Port 本機5432:服務5432
-
-  pgadmin:
-    user: root
-    image: dpage/pgadmin4:latest  # Pull pgadmin4 Image
-    container_name: pgadmin
-    environment:
-      - PGADMIN_DEFAULT_EMAIL=example@gmail.com  # Login Email
-      - PGADMIN_DEFAULT_PASSWORD=000000  # Login Password
-      - PGADMIN_LISTEN_PORT=80  # 80 Port
-    ports:
-      - "5050:80"  # Port 本機5050:服務80
+      - "5432:5432" # Port 本機5432:服務5432
     volumes:
-      - ./data:/var/lib/pgadmin   # 資料存放路徑
+      - ./postgres-data:/var/lib/postgresql/data # 資料存放路徑
 ```
 
+- 建立 pgadmin.yaml 檔
+``` yaml
+version: '3'
+services:
+  pgadmin:
+    image: dpage/pgadmin4:latest # Pull pgadmin4 Image
+    container_name: pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=example@gmail.com # Login Email
+      - PGADMIN_DEFAULT_PASSWORD=000000 # Login Password
+      - PGADMIN_LISTEN_PORT=80 # 80 Port
+    ports:
+      - "5050:80" # Port 本機5050:服務80
+    volumes:
+      - ./pgadmin-data:/var/lib/pgadmin # 資料存放路徑
 
+```
 
 ## :pushpin: 進入 pgAdmin GUI 連線到 Postgres
 
