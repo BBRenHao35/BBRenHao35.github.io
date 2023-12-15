@@ -37,6 +37,7 @@ export default {
         items: [
           { text: "Docker", link: "/docker/docker.md", },
           { text: "Postgres + pgAdmin", link: "/docker/postgres.md", },
+          { text: "MongoDB + Mongo Express", link: "/docker/mongo.md", },
         ],
         collapsible: true, // 開啟側邊折疊功能
         collapsed: false // 預設展開側邊攔
