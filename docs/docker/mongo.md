@@ -1,4 +1,4 @@
-# Docker Compose Postgres + pgAdmin
+# Docker Compose Mongo DB + Mongo Express
 
 ::: tip 建立時間：2023/12/15
 用 Docker Compose 建立 Mongo DB + Mongo Express GUI 微服務

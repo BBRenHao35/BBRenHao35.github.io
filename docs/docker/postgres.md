@@ -45,8 +45,10 @@ services:
 
 - 拉取 Image、啟動服務
 ``` shell
-docker-compose pull  # 拉取 docker-compose.yaml 內的 兩支服務
-docker-compose up -d  # 啟動服務
+docker-compose -f postgres.yaml pull  # 執行 postgres.yaml 內的設定
+docker-compose -f postgres.yaml up -d  # 啟動服務
+docker-compose -f pgadmin.yaml pull  # 執行 pgadmin.yaml 內的設定
+docker-compose -f pgadmin.yaml up -d  # 啟動服務
 docker ps  # 查看 Container
 ```
 
