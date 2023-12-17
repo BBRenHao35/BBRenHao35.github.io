@@ -31,6 +31,7 @@ export default {
           { text: "Git 指令", link: "/post/git.md", },
           { text: "VitePress 安裝", link: "/post/vitepress.md", },
           { text: "Postgres SQL", link: "/post/postgres.md", },
+          { text: "Mongo DB", link: "/post/mongo.md"},
         ],
       },
       {
