@@ -32,6 +32,7 @@ export default {
           { text: "VitePress 安裝", link: "/post/vitepress.md", },
           { text: "Postgres SQL", link: "/post/postgres.md", },
           { text: "Mongo DB", link: "/post/mongo.md"},
+          { text:"Cookie", link: "/post/cookie.md"}
         ],
       },
       {
