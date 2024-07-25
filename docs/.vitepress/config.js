@@ -1,6 +1,6 @@
 export default {
   themeConfig: {
-    siteTitle: "Axel Blog",
+    siteTitle: "豪 Blog",
     lastUpdated: true,
     // logo: "/logo.png",
     docFooter: { prev: '上一篇', next: '下一篇' },
@@ -19,7 +19,7 @@ export default {
     ],
     // GitHub Link
     socialLinks: [
-      { icon: "github", link: "https://github.com/axel1227" },
+      { icon: "github", link: "https://github.com/BBRenHao35" },
     ],
     // =========================================================
     // sidebar

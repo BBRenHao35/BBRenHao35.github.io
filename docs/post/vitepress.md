@@ -62,7 +62,7 @@ npm run docs:dev
 ``` json
 export default {
     themeConfig:{
-        siteTitle: "Axel Blog", 
+        siteTitle: "豪 Blog", 
         nav: [ // navbar 設定
             { text: "首頁", link: "/index.md" }, // navbar text首頁 link到index.md文件
             {
@@ -74,7 +74,7 @@ export default {
             }
           ],
           socialLinks: [ // GitHub Icon
-            { icon: "github", link: "https://github.com/axel1227" },
+            { icon: "github", link: "https://github.com/BBRenHao35" },
           ],
           sidebar: [ // sidebar 設定
             {
@@ -115,7 +115,7 @@ hero:
       link: /post/test1.md
     - theme: alt
       text: GitHub
-      link: https://github.com/axel1227
+      link: https://github.com/BBRenHao35
 features:
   - icon: 🔨
     title: 文章1
@@ -166,8 +166,8 @@ git add -A
 git commit -m 'deploy'
 
 # 如果是部署到 https://<USERNAME>.github.io
-#  git push -f https://github.com/Axel1227/Axel1227.github.io.git main:gh-pages
-git push -f git@github.com:Axel1227/Axel1227.github.io.git main:gh-pages
+#  git push -f https://github.com/BBRenHao35/BBRenHao35.github.io.git main:gh-pages
+git push -f git@github.com:BBRenHao35/BBRenHao35.github.io.git main:gh-pages
 
 
 # 如果是部署到 https://<USERNAME>.github.io/<REPO>
@@ -200,4 +200,4 @@ cd -
 
 ## :pushpin: GitHub Project
 
-GitHub Project：https://github.com/Axel1227/VitePress_GitHub_Pages_Training
+GitHub Project：https://github.com/BBRenHao35/VitePress_GitHub_Pages_Training
