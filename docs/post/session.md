@@ -1,7 +1,7 @@
 # session
 
 ::: tip 建立時間：2024/07/29
-session 簡介
+Session 簡介
 :::
 
 ## :pushpin: session 簡介

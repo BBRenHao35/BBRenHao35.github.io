@@ -1,7 +1,7 @@
 # cookie
 
 ::: tip 建立時間：2024/07/25
-cookie 簡介
+Cookie 簡介
 :::
 
 ## :pushpin: cookie 簡介

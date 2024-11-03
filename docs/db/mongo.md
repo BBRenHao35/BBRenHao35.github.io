@@ -1,4 +1,22 @@
-# Docker Compose Mongo DB + Mongo Express
+# Mongo + Mongo Express
+
+::: tip 建立時間：2023/12/17
+Mongo DB 簡介
+:::
+
+## :pushpin: Mongo DB 簡介
+- NoSQL 非關聯式資料庫
+- 應用-JSON資料儲存、即時數據、大數據、低價值檔案儲存
+- 階層: Database => Collection => Document
+- Collection: 類似Table的概念
+- Document: 自動產生_id(Primary Key)、每一筆被儲存的資料BSON(binary JSON)
+- Indexes:  增加不同欄位的搜尋，可以透過條件搜尋加快速度
+
+![pgadmin](/public/db/mongo/mongodb-compass.png)
+
+
+
+## :pushpin: Docker Compose Mongo DB + Mongo Express
 
 ::: tip 建立時間：2023/12/15
 用 Docker Compose 建立 Mongo DB + Mongo Express GUI 微服務
@@ -58,8 +76,9 @@ docker ps  # 查看 Container
 ```
 
 - `http://localhost:28081`  (Login: `admin` / `changeme`)
-![docker-mongoweb-login](/public/docker/docker-mongo/docker-mongoweb-login.png)
-![docker-pgadmin-ui](/public/docker/docker-mongo/docker-mongo-express.png)
+
+![docker-mongoweb-login](/public/db/mongo/mongoweb-login.png)
+![docker-pgadmin-ui](/public/db/mongo/mongo-express.png)
 
 ## :pushpin: 使用本機 MongoDB Compass 登入 Mongo DB
 
@@ -68,6 +87,6 @@ docker ps  # 查看 Container
     - Username: mongoadmin
     - Password: mongoadmin
 
-![docker-mongo-compass](/public/docker/docker-mongo/docker-mongo-local.png)
-![docker-mongo-compass](/public/docker/docker-mongo/docker-mongo-compass.jpg)
-![docker-mongo-compass](/public/docker/docker-mongo/docker-mongo-express-ui.png)
+![docker-mongo-compass](/public/db/mongo/mongo-local.png)
+![docker-mongo-compass](/public/db/mongo/mongo-compass.jpg)
+![docker-mongo-compass](/public/db/mongo/mongo-express-ui.png)
