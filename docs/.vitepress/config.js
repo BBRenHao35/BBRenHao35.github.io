@@ -34,7 +34,7 @@ export default {
           { text: "Cookie", link: "/post/cookie.md" },
           { text: "Session", link: "/post/session.md" },
           { text: "JWT", link: "/post/jwt.md" },
-          { text: "DNS", link: "/post/DNS.md" },
+          { text: "DNS", link: "/post/dns.md" },
           { text: "StaticIP", link: "/post/staticip.md" },
           { text: "SSH", link: "/post/ssh.md" },
           { text: "Lambda", link: "/post/lambda.md" },
