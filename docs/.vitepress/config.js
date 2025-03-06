@@ -51,6 +51,12 @@ export default {
         collapsible: true, // 開啟側邊折疊功能
         collapsed: false // 預設展開側邊攔
       },
+      {
+        text: "Security",
+        items: [
+          { text: "Sonarqube", link: "/security/sonarqube.md", },
+        ]
+      }
     ],
     // =========================================================
   }

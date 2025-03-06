@@ -27,7 +27,6 @@ Mongo DB 簡介
 - 建立 mongo.yaml 檔
 
 ``` yaml
-version: '3.3'
 services:
   mongo:
     image: mongo # Pull mongo Image
@@ -45,7 +44,6 @@ services:
 - 建立 mongo-express.yaml 檔
 
 ``` yaml
-version: '3.3'
 services:
   mongo-express:
     image: mongo-express # Pull mongo-express Image

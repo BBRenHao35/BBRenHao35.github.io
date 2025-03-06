@@ -24,7 +24,6 @@ services:
 
 - 建立 cassandra-web.yaml 檔
 ``` yaml
-version: '3'
 services: 
   cassandra-web:
     image: ipushc/cassandra-web # Pull cassandra-web Image
