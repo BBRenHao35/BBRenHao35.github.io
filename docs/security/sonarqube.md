@@ -39,3 +39,6 @@ docker-compose pull  # 執行 redis.yaml 內的設定
 docker-compose up -d  # 啟動服務
 docker ps  # 查看 Container
 ```
+
+- `http://localhost:9090`  (Login: `admin` / `admin`)
+![pgadmin](/public/sonarqube/sonarqube.png)
