@@ -55,6 +55,7 @@ export default {
         text: "Security",
         items: [
           { text: "Sonarqube", link: "/security/sonarqube.md", },
+          { text: "Nmap", link: "/security/nmap.md", },
         ]
       }
     ],
