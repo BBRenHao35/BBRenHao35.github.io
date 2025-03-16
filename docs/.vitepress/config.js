@@ -38,6 +38,7 @@ export default {
           { text: "StaticIP", link: "/post/staticip.md" },
           { text: "SSH", link: "/post/ssh.md" },
           { text: "Lambda", link: "/post/lambda.md" },
+          { text: "MacOS", link: "/post/macos.md"},
         ],
       },
       {
