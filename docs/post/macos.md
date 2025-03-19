@@ -5,6 +5,13 @@
 - PVE 版本 8、Python3.8 以上
 :::
 
+## :pushpin: 其他
+- PVE預設啟用企業版軟體庫:這需要PVE訂閱，若無則無法apt update更新，所以要將Enterprise和Ceph註解定改使用免費版
+``` shell
+nano /etc/apt/sources.list.d/pve-enterprise.list # Enterprise
+nano /etc/apt/sources.list.d/ceph.list # Ceph
+```
+
 ## :pushpin: 1.下載 ISO檔、上傳PVE
 - https://github.com/thenickdude/KVM-Opencore/releases
 - 下載 OpenCore-v21.iso.gz、解壓縮 OpenCore-v21.iso
