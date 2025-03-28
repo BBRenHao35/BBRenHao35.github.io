@@ -41,4 +41,31 @@ docker ps  # 查看 Container
 ```
 
 - `http://localhost:9090`  (Login: `admin` / `admin`)
-![pgadmin](/public/sonarqube/sonarqube.png)
+![sonarqube](/public/sonarqube/sonarqube.png)
+
+
+## :pushpin: 掃描流程
+
+- 點選 Locally
+![pgadmin](/public/sonarqube/locally.jpg)
+
+- 點選 Generate
+![generate_token](/public/sonarqube/generate_token.jpg)
+
+- 點選 Continue
+![continue](/public/sonarqube/continue.jpg)
+
+- 點選 Net、.Net Core
+![continue](/public/sonarqube/net_core.jpg)
+
+- 會顯示要執行的指令
+![sonar_cmd](/public/sonarqube/sonar_cmd.jpg)
+
+- 再到專案路徑底下執行CMD開啟終端機
+![project_path](/public/sonarqube/project_path.jpg)
+
+- 執行提供的指令
+![sonar_scanner](/public/sonarqube/sonar_scanner.jpg)
+
+- 掃描完成顯示掃描結果
+![scanner_result](/public/sonarqube/scanner_result.jpg)
